@@ -2,17 +2,17 @@
 
 while True:
 	try:
-		fname = input("Enter file name: ")
+		#fname = input("Enter file name: ")
+		fname = "romeo.txt"
 		fh = open(fname)
 		break
 	except:
 		print("Oops!  That was not a valid file name.  Try again")
 
-fr = fh.read()
 lst = list()
-words = fr.split()
-for i in words:
-	if i not in lst:
-		lst.append(i)
-lst.sort()
-print(lst)
+for line in fh:
+	words = line.strip().split()
+	for i in words:
+		if i not in lst:
+			lst.append(i)
+print(sorted(lst))
