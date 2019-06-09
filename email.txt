@@ -1,0 +1,5 @@
+From stephen.marquard@uct.ac.za Sat Jan  5 09:14:16 2008
+To: source@collab.sakaiproject.org
+From: zqian@umich.edu
+This automatic notification message was sent by Sakai Collab (https://collab.sakaiproject.org/portal) from the Source site.
+You can modify how you receive notifications at My Workspace > Preferences.
